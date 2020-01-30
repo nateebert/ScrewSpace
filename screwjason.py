@@ -44,6 +44,8 @@ def msg_received_from_group():
       send_msg("hey. hey jason. quiet.")
     else:
       send_msg("jason your face is the visual equivalent of the f-word")
+   elif data['text'].lower() == "!test":
+     send_msg("We're all set boss")
 
 
 
